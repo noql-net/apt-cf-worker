@@ -1,0 +1,13 @@
+{
+    "$schema": "https://raw.githubusercontent.com/skymethod/denoflare/v0.5.11/common/config.schema.json",
+    "scripts": {
+        "noql-apt": {
+            "path": "worker.ts",
+            "localPort": 3030,
+            "bindings": {
+                "allowCorsOrigins": { "value": "apt.noql.net" }
+            },
+            "customDomains": [ "apt.noql.net" ]
+        }
+    }
+}
